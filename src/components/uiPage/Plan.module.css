@@ -1,0 +1,170 @@
+.perInDiv{
+    padding-top: 15%;
+    font-size: 20px
+}
+    .btnDiv{
+        margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+    }
+
+    .textPerInfo h3{
+        font-size: 1.7rem;
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .textPerInfo p{
+        font-size: 16px;
+        font-weight: bold;
+        opacity: 0.5;
+        margin-top: 10px;
+    }
+    .per-plan-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .child-plan-div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 180px;
+        height: 100%;
+        background-color: hsl(217, 100%, 97%);
+        margin-right: 10px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .child-plan-div div{
+        margin-top: 20px;
+
+    }
+   .active-div{
+     border: 1px solid hsl(243, 100%, 62%);
+    }
+    .child-plan-div img{
+        width: 33px;
+    
+    }
+    .child-plan-div h4{
+        padding-top: 10px;
+        color:hsl(213, 96%, 18%) ;
+        font-size: 14px;
+    
+    }
+    .child-plan-div p{
+        opacity: 0.8;
+        font-size: 12px;
+    }
+    .mon-free{
+        color:hsl(213, 96%, 18%) ;
+        font-weight: bold;
+        font-size: 18px;
+    }
+ 
+
+    /* toggle section */
+
+    .toggle-div{
+        margin-top: 38px;
+        background-color: hsl(217, 100%, 97%);
+        display: flex;
+        justify-content: center;
+       padding: 10px;
+   
+
+    }
+  
+    .toggle-div p{
+        opacity: 0.8;
+        font-size: 13px;
+    }
+
+    .active{
+        color:hsl(213, 96%, 18%) ;
+        font-weight: bolder;
+    }
+    .remove-active{
+        color: black;
+        opacity: 0.8;
+    }
+
+    .toggle-div button{
+        height: 18px;
+        width: 35px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: hsl(213, 96%, 18%);
+        accent-color: white;
+    }
+    .toggle-div input{
+        width: 20px;
+        height: 15px;
+        position: relative;
+        right: 9px;
+        top: 1px;
+    }
+ .moveRight{
+    position: relative;
+    left: 9px;
+}
+
+
+
+    .btn{
+        width:100px;
+        height:35px;
+        border-radius: 5px;
+        color: white;
+        background-color:hsl(219, 69%, 44%);
+        font-size: 13px;
+        border: none;
+     
+    }
+  
+
+
+    
+    .btnDiv .btn1{
+        border: none;
+        color:black ;
+        font-size: 13px;
+        font-weight: bolder;
+        opacity: 0.5;
+        padding: 10px;
+      }
+
+      @media (max-width:760px) {
+        .btnDiv{
+            margin-top: 27vh;
+         display: flex;
+         justify-content: space-between;
+        }
+        .per-plan-div{
+            display: block;
+        
+             
+        }
+        .child-plan-div{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: 100%;
+            height: 5%;
+            background-color: hsl(217, 100%, 97%);
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 7px;
+            border-radius: 10px;
+        }
+        .child-plan-div div{
+           margin-left: 10px;
+           margin-top: -10px;
+        }
+
+
+
+
+
+    }

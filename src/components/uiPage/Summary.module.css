@@ -1,0 +1,85 @@
+.textPerInfo h3{
+  font-size: 1.7rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.textPerInfo p{
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.btnDiv{
+    margin-top: 70px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.btn{
+  width:100px;
+  height:35px;
+  border-radius: 5px;
+  color: white;
+  background-color:hsl(219, 69%, 44%);
+  font-size: 13px;
+  border: none;
+}
+
+.btnDiv .btn1{
+  border: none;
+  color:black ;
+  font-size: 13px;
+  font-weight: bolder;
+  opacity: 0.5;
+  padding: 10px;
+  }
+  .parent-plan{
+    margin-top: 20px;
+    background-color: rgb(117, 117, 175);
+  }
+.plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(66, 64, 64);
+    height: 100px;
+    background-color: whitesmoke;
+  }
+  .parent-plan1{
+    padding-top: 5px;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  .parent-plan1 p{
+    opacity: 0.5;
+  }
+  .plan1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+   
+  }
+  .total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    opacity: 0.5;
+  }
+  .plan h3{
+    color: hsl(213, 96%, 18%);
+    font-size: 14px;
+  }
+  .plan p{
+    color: hsl(213, 96%, 18%);
+  }
+
+  @media (max-width:760px) {
+    .btnDiv{
+        margin-top: 25vh;
+     display: flex;
+     justify-content: space-between;
+    }
+}

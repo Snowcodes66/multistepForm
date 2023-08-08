@@ -1,0 +1,95 @@
+.textPerInfo h3{
+    font-size: 1.7rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.textPerInfo p{
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.check-box-par-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.innerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color:black;
+    margin-top: 20px;
+    padding: 20px;
+    height: 60px;
+    border: 2px solid rgb(226, 225, 225);
+}
+.inner-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-div1 input{
+    width: 20px;
+    border-radius: 10px;
+}
+.inner-div1 div{
+    margin-left: 30px;
+}
+.inner-div1 h4{
+    color:hsl(213, 96%, 18%) ;
+    font-size: 13px;
+}
+.inner-div1 p{
+    opacity: 0.8;
+    font-size: 14px;
+}
+.active-div{
+    border: 1px solid hsl(243, 100%, 62%);
+    background-color:  hsl(217, 100%, 97%);
+   }
+.btnDiv{
+    margin-top: 100px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.btn{
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    color: white;
+    background-color:hsl(219, 69%, 44%);
+    font-size: 13px;
+    border: none;
+}
+
+
+
+.btnDiv .btn1{
+    border: none;
+    color:black ;
+    font-size: 13px;
+    font-weight: bolder;
+    opacity: 0.5;
+    padding: 10px;
+  }
+
+  .check2{
+    height: 15px;
+    width: 15px;
+    margin-top: 18px;
+    border: 0.5px solid rgb(95, 92, 92);
+  }
+  .check2.active{
+    background-color: rgb(30, 30, 219);
+  }
+
+  @media (max-width:760px) {
+    .btnDiv{
+        margin-top: 25vh;
+     display: flex;
+     justify-content: space-between;
+    }
+}

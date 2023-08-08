@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import PersonalInfo from "./components/uiPage/PersonalInfo";
+import Plan from "./components/uiPage/Plan";
+import Summary from "./components/uiPage/Summary";
+import AddOnPage from "./components/uiPage/AddPage";
+import FormProvider from "./store/FormProvider";
+import Finished from "./components/uiPage/Finished";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FormProvider>
+      <Routes>
+        <Route path="/" element={<PersonalInfo />} />
+        <Route path="/personal" element={<PersonalInfo />} />
+        <Route path="/plan" element={<Plan />} />
+        <Route path="/add" element={<AddOnPage />} />
+        <Route path="/summary" element={<Summary />} />
+        <Route path="/thanks" element={<Finished />} />
+      </Routes>
+    </FormProvider>
   );
 }
 

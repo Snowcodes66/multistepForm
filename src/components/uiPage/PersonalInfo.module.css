@@ -1,0 +1,81 @@
+.perInDiv{
+    padding-top: 15%;
+    font-size: 20px
+}
+
+.textPerInfo h3{
+    font-size: 1.7rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.textPerInfo p{
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.form{
+    margin-top: 20px;
+}
+.form label{
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 12px;
+}
+.form input{
+    width: 100%;
+    height: 20px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: 0.1px solid rgb(235, 232, 232);
+    padding: 15px;
+    font-size: 13px;
+}
+.input-error{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(126, 67, 67);
+}
+.btnDiv{
+ margin-top: 80px;
+ display: flex;
+ justify-content: space-between;
+}
+.btn{
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    color: white;
+    background-color:hsl(219, 69%, 44%);
+    font-size: 13px;
+    border: none;
+ 
+}
+ .btn:disabled{
+    width:100px;
+    height:35px;
+    border-radius: 5px;
+    color: white;
+    background-color:hsl(219, 19%, 46%);
+    font-size: 13px;
+    border: none;
+    cursor: not-allowed;
+}
+
+/* mobile view */
+
+@media (max-width:760px) {
+    .btnDiv{
+        margin-top: 28vh;
+     display: flex;
+     justify-content: space-between;
+    }
+}
